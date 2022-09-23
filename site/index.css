@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+
+.landingPage{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    Font-size: 16px; 
+}
+.text{
+    padding: 50px 160px;
+    font-family: Josefin Sans;
+    background-image: linear-gradient(135deg,hsl(0, 0%, 100%),hsl(0, 100%, 98%));
+}
+.textArea{
+    margin-top: 130px;
+    font-size: 70px;
+}
+
+.title{
+    font-weight: 300;
+    letter-spacing: 12px;
+    color: hsl(0, 36%, 70%);
+}
+
+.subTitle{
+    font-weight: 600;
+}
+
+.areaText{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: hsl(0, 36%, 70%);
+}
+
+.input{
+    position: relative;
+    padding: 0px;
+    margin-top: 50px;
+}
+
+.input input{
+    position: absolute;  
+    width: 450px;
+    height: 60px;
+    padding: 0px;
+    padding-left: 30px;
+    border-radius: 60px;
+    border: solid 1px hsl(0, 36%, 70%);
+    font-family: Josefin Sans;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+input::placeholder{
+    color:  hsl(0, 36%, 70%);
+    font-size: 15px;
+}
+
+.button{
+    text-decoration: none;
+    border: none;
+    position: absolute;
+    width: 110px;
+    height: 60px;
+    margin-left: 400px;
+    border-radius: 60px;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+}
+
+
+@media screen and (max-width: 375px){
+    .landingPage{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        padding: 30px 50px;
+    }
+    .textArea{
+        text-align: center;
+        font-size: 50px;
+    }
+    .areaText{
+        font-size: 13px;
+    }
+    .input input{
+        width: 250px;
+    }
+    .button{
+        width: 80px;
+        margin-left: 190px;
+    }
+}
