@@ -1,4 +1,4 @@
-# O Projeto (Não finalizado)
+# Sobre o Projeto (Não finalizado)
 
 O projeto foi construir uma página de Landing page deixando mais completa possível para o usuário.
 
